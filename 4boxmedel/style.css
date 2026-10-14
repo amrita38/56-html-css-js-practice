@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+/* #box{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin: 50px;
+    padding: 30px;
+} */
+
+#parent{
+    height:200px;
+    width: 400px;
+    background-color: crimson;
+}
+#child{
+    height: 50%;
+    width: 100px;
+    background-color: royalblue;
+}
+
+button{
+    margin:40px;
+    font-size: 20px;
+    padding:10px 20px ;
+    background-color: lightblue;
+    font-weight: 500;
+    border: 2px solid rgba(41, 10, 112, 0.5);
+    /* border: none; */
+    border-radius: 5px;
+}
+button:hover{
+    background-color: rgba(53, 14, 14, 0.515);
+    color: blue;
+}
